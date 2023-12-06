@@ -1,0 +1,31 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+#coffee-gif {
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+}
+
+#response-buttons {
+    margin: 20px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+#response-message {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#time-input {
+    display: none;
+    margin-top: 20px;
+}

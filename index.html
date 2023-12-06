@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Time Invitation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>☕ Coffee Time? ☕</h1>
+
+    <img id="coffee-gif" src="https://media.giphy.com/media/l2JJLQSMaYe9eVEJ2/giphy.gif" alt="Coffee GIF">
+
+    <div id="response-buttons">
+        <button onclick="respondToInvitation('yes')">Yes</button>
+        <button onclick="respondToInvitation('no')">No</button>
+    </div>
+
+    <div id="time-input">
+        <label for="coffee-time">Enter desired time:</label>
+        <input type="text" id="coffee-time" placeholder="e.g., 2:30 PM">
+        <button onclick="validateAndSendEmail()">Validate Time</button>
+    </div>
+
+    <div id="response-message"></div>
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
